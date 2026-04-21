@@ -1,0 +1,16 @@
+{
+  "page": {
+    "title": "日常杂谈",
+    "description": "记录生活中的小感受、偶然想到的问题、未必严肃但仍然值得留下的片段。"
+  },
+  "posts": [
+    {
+      "title": "一个人真正开始思考，往往不是因为懂得更多",
+      "summary": "很多时候，真正推动思考开始的，不是知识本身，而是某种迟来的不满足感。",
+      "date": "2026-04-21",
+      "sortDate": "2026-04-21",
+      "cover": "../assets/images/covers/daily-001.jpg",
+      "link": "../posts/daily/daily-001.html"
+    }
+  ]
+}

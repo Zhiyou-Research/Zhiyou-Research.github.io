@@ -1,0 +1,16 @@
+{
+  "page": {
+    "title": "阅读感悟",
+    "description": "在书页、论文、传记与思想之间，缓慢地形成自己的理解方式。"
+  },
+  "posts": [
+    {
+      "title": "好的阅读不是获得结论，而是改变你理解问题的角度",
+      "summary": "有些书并不会立刻告诉你答案，但会悄悄改写你之后看世界的方式。",
+      "date": "2026-04-19",
+      "sortDate": "2026-04-19",
+      "cover": "../assets/images/covers/reading-001.jpg",
+      "link": "../posts/reading/reading-001.html"
+    }
+  ]
+}

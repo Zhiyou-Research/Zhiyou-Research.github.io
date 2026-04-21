@@ -1,0 +1,16 @@
+{
+  "page": {
+    "title": "科学随笔",
+    "description": "记录研究中的问题意识、方法判断、技术反思与科学审美。"
+  },
+  "posts": [
+    {
+      "title": "真正困难的问题，往往不是没有答案，而是没有被正确命名",
+      "summary": "研究中的很多停滞，并不是能力不足，而是问题本身还没有被切准。",
+      "date": "2026-04-20",
+      "sortDate": "2026-04-20",
+      "cover": "../assets/images/covers/science-001.jpg",
+      "link": "../posts/science/science-001.html"
+    }
+  ]
+}
