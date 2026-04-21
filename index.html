@@ -14,7 +14,7 @@
         <span class="brand-mark"></span>
         <span class="brand-text">
           <strong>Zhiyou Guan</strong>
-          <small>Research · Writing · Reading</small>
+          <small>Research Homepage</small>
         </span>
       </a>
 
@@ -33,95 +33,61 @@
   </header>
 
   <main>
-    <!-- 第一屏 -->
+    <!-- Hero -->
     <section class="hero hero-research">
-      <div class="container hero-research-grid">
-        <div class="hero-left reveal">
-          <div class="eyebrow">Automation · Robotics · Embodied AI</div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Automation · Robotics · Embodied AI</span>
           <h1>关智友</h1>
-          <p class="hero-identity">
-            东北大学自动化专业本科生 · 机器人感知 · 多传感器融合 · 具身智能 · 三维 SLAM
+          <p class="hero-role">
+            东北大学自动化专业本科生
           </p>
-          <p class="hero-desc">
-            我关注机器人系统中的感知、理解与部署问题，也持续记录科学思考、阅读笔记与个人写作。
-            这个网站既是我的科研个人主页，也是一个长期生长的表达空间。
+          <p class="hero-brief">
+            关注机器人感知、多传感器融合、具身智能与三维 SLAM。
           </p>
-
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#research">查看研究方向</a>
-            <a class="btn btn-secondary" href="pages/science.html">进入科学随笔</a>
-          </div>
 
           <div class="hero-tags">
             <span class="meta-chip">机器人感知</span>
             <span class="meta-chip">具身智能</span>
             <span class="meta-chip">多传感器融合</span>
             <span class="meta-chip">3D SLAM</span>
-            <span class="meta-chip">科研写作</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#research">查看研究方向</a>
+            <a class="btn btn-secondary" href="pages/about.html">了解更多</a>
           </div>
         </div>
 
-        <div class="hero-right reveal delay-1">
-          <div class="portrait-card">
-            <div class="portrait-frame">
-              <!-- 把你的照片放到 assets/images/profile/avatar.jpg -->
-              <img src="assets/images/profile/avatar.jpg" alt="关智友" class="hero-photo" />
-            </div>
-
-            <div class="portrait-info">
-              <div class="portrait-name">
-                <strong>Zhiyou Guan</strong>
-                <span>Undergraduate Student · Northeastern University</span>
-              </div>
-              <div class="portrait-note">
-                研究兴趣聚焦于机器人感知、空间智能、具身智能与可部署智能系统。
-              </div>
-            </div>
+        <div class="hero-photo-card reveal delay-1">
+          <div class="hero-photo-wrap">
+            <img src="assets/images/profile/avatar.jpg" alt="关智友" class="hero-photo" />
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 简介 -->
+    <!-- About -->
     <section class="section" id="about">
       <div class="container">
         <div class="section-head reveal">
           <div>
-            <span class="section-kicker">About Me</span>
+            <span class="section-kicker">About</span>
             <h2>关于我</h2>
           </div>
-          <p>不是简单的简历摘要，而是一个更完整的科研与写作画像。</p>
+          <p>一页快速了解我的背景、兴趣与写作入口。</p>
         </div>
 
-        <div class="about-home-grid">
-          <div class="about-home-card reveal">
-            <h3>个人简介</h3>
-            <p>
-              我目前就读于东北大学自动化专业，长期关注机器人、人工智能与复杂系统中的感知和理解问题。
-              我对“能否将真正有价值的方法落到现实系统中”这件事尤其感兴趣，因此也非常重视工程实现、系统部署与实际场景约束。
-            </p>
-            <p>
-              除了技术研究，我也持续保留写作习惯。这个网站因此不只展示“做过什么”，
-              也希望慢慢呈现“我是怎样理解问题、怎样思考世界的人”。
-            </p>
-          </div>
-
-          <div class="about-home-card reveal delay-1">
-            <h3>快速信息</h3>
-            <ul class="info-list">
-              <li><strong>学校</strong><span>东北大学</span></li>
-              <li><strong>专业</strong><span>自动化</span></li>
-              <li><strong>身份</strong><span>本科生</span></li>
-              <li><strong>关键词</strong><span>机器人 / 感知 / 具身智能 / SLAM</span></li>
-              <li><strong>邮箱</strong><span>your_email@example.com</span></li>
-              <li><strong>GitHub</strong><span>github.com/yourusername</span></li>
-            </ul>
-          </div>
+        <div class="about-brief-card reveal">
+          <p>
+            我目前就读于东北大学自动化专业，长期关注机器人系统中的感知、理解与部署问题。
+            这个网站既展示我的研究兴趣，也记录科学思考、阅读感悟与个人写作。
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- 研究方向 -->
+    <!-- Research -->
     <section class="section soft-panel" id="research">
       <div class="container">
         <div class="section-head reveal">
@@ -129,46 +95,38 @@
             <span class="section-kicker">Research Interests</span>
             <h2>研究方向</h2>
           </div>
-          <p>我更关注那些既有理论意义、又能真正进入系统与场景的问题。</p>
+          <p>我更关心那些既有研究意义、又能进入真实系统的问题。</p>
         </div>
 
         <div class="research-grid">
           <article class="research-card reveal">
             <div class="research-icon"></div>
             <h3>机器人感知</h3>
-            <p>
-              面向真实环境中的机器人系统，关注感知鲁棒性、信息表达与系统级协同问题。
-            </p>
+            <p>面向真实场景的感知表达与系统理解。</p>
           </article>
 
           <article class="research-card reveal delay-1">
             <div class="research-icon"></div>
             <h3>多传感器融合</h3>
-            <p>
-              探索激光、视觉、惯导等多源信息之间的互补机制，以及可落地的融合方案。
-            </p>
+            <p>视觉、激光与惯导等多源信息的互补协同。</p>
           </article>
 
           <article class="research-card reveal delay-2">
             <div class="research-icon"></div>
-            <h3>三维 SLAM 与空间智能</h3>
-            <p>
-              关注三维感知、定位建图、环境表达与复杂场景中的空间理解能力。
-            </p>
+            <h3>三维 SLAM</h3>
+            <p>定位建图、空间表达与复杂场景理解。</p>
           </article>
 
           <article class="research-card reveal">
             <div class="research-icon"></div>
             <h3>具身智能</h3>
-            <p>
-              对连接感知、行动、推理与现实系统部署的智能框架保持持续兴趣。
-            </p>
+            <p>连接感知、行动、推理与部署的智能系统。</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- 导航入口 -->
+    <!-- Nav Cards -->
     <section class="section">
       <div class="container">
         <div class="section-head reveal">
@@ -176,44 +134,44 @@
             <span class="section-kicker">Explore</span>
             <h2>网站导航</h2>
           </div>
-          <p>希望访问者一进来就知道：你是谁、你在想什么、这个网站里能看到什么。</p>
+          <p>从这里进入更完整的个人信息与写作内容。</p>
         </div>
 
         <div class="feature-grid feature-grid-5">
           <a class="feature-card reveal" href="pages/about.html">
             <div class="feature-icon"></div>
             <h3>关于我</h3>
-            <p>更完整的个人背景、兴趣结构、研究路径与长期关注的问题。</p>
+            <p>个人背景、兴趣结构与长期关注的问题。</p>
           </a>
 
           <a class="feature-card reveal delay-1" href="pages/daily.html">
             <div class="feature-icon"></div>
             <h3>日常杂谈</h3>
-            <p>不那么正式，但仍然真实的表达，记录日常观察与偶然生长出来的念头。</p>
+            <p>记录日常观察、片段感受与自然生长出的念头。</p>
           </a>
 
           <a class="feature-card reveal delay-2" href="pages/science.html">
             <div class="feature-icon"></div>
             <h3>科学随笔</h3>
-            <p>围绕技术、问题意识、方法判断与科研直觉展开的研究性写作。</p>
+            <p>围绕技术、问题意识与方法判断的写作。</p>
           </a>
 
           <a class="feature-card reveal" href="pages/reading.html">
             <div class="feature-icon"></div>
             <h3>阅读感悟</h3>
-            <p>记录那些真正改变我理解问题方式的书、论文、人物与思想。</p>
+            <p>记录书、论文、人物与思想的回响。</p>
           </a>
 
           <a class="feature-card reveal delay-1" href="pages/contact.html">
             <div class="feature-icon"></div>
             <h3>联系我</h3>
-            <p>邮箱、GitHub、合作方向与适合进一步交流的联系方式。</p>
+            <p>邮箱、GitHub 与进一步交流的入口。</p>
           </a>
         </div>
       </div>
     </section>
 
-    <!-- 精选文章 -->
+    <!-- Selected -->
     <section class="section soft-panel">
       <div class="container">
         <div class="section-head reveal">
@@ -221,23 +179,21 @@
             <span class="section-kicker">Selected Writings</span>
             <h2>精选内容</h2>
           </div>
-          <p>这里不是简单地堆“最新文章”，而是放更值得被点进去的入口。</p>
+          <p>放一些更值得被点进去的内容，而不只是简单的最新列表。</p>
         </div>
 
         <div class="recent-grid" id="recentPosts"></div>
       </div>
     </section>
 
-    <!-- 联系 -->
+    <!-- Contact -->
     <section class="section">
       <div class="container">
         <div class="contact-home-card reveal">
           <div class="contact-home-left">
             <span class="section-kicker">Contact</span>
             <h2>联系我</h2>
-            <p>
-              如果你想围绕研究、写作、阅读、项目合作或其他相关问题交流，欢迎联系我。
-            </p>
+            <p>欢迎围绕研究、写作、阅读或合作相关问题与我交流。</p>
           </div>
 
           <div class="contact-home-right">
@@ -273,6 +229,7 @@
       </div>
     </div>
   </footer>
+
   <script src="assets/js/main.js"></script>
 </body>
 </html>
